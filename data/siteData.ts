@@ -1,4 +1,4 @@
-export type ServerStatus = "ON" | "OFF";
+export type ServerStatus = "OFF"; //"ON" | "OFF";
 
 export const siteInfo = {
   eventEnglishTitle: "PALWORLD EVENT",
