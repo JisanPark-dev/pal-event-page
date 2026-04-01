@@ -5,7 +5,7 @@ type Props = {
 };
 
 export default function ServerStatusPanel({ initialStatus }: Props) {
-  const isOn = initialStatus === "ON";
+  const isOn = initialStatus == "ON";
 
   return (
     <div className="px-2 py-2">

@@ -1,4 +1,4 @@
-export type ServerStatus = "OFF"; //"ON" | "OFF";
+export type ServerStatus = "ON" | "OFF";
 
 export const siteInfo = {
   eventEnglishTitle: "PALWORLD EVENT",
@@ -14,7 +14,7 @@ export const siteInfo = {
   ],
 };
 
-export const defaultServerStatus: ServerStatus = "ON";
+export const defaultServerStatus: ServerStatus = "OFF"; //서버 변경 값
 
 export const rankingData = [
   { team: "1팀", score: 85, members: "탄산, 완지, 한우, 갈매기" },
