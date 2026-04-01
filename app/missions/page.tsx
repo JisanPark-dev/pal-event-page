@@ -122,13 +122,6 @@ export default function MissionsPage() {
         {/* 상단 배너 */}
         <section className="mb-8 overflow-hidden rounded-[32px] border border-white/10 bg-[#081427]/90">
           <div className="relative h-[220px] md:h-[200px]">
-            <Image
-              src="/missions/mission-banner.avif"
-              alt="팰월드 미션 배너"
-              fill
-              priority
-              className="object-cover"
-            />
             <div className="absolute inset-0 bg-gradient-to-r from-[#020817]/90 via-[#020817]/65 to-transparent" />
             <div className="absolute inset-x-0 bottom-0 top-0 flex items-center px-6 md:px-10">
               <div className="max-w-3xl">
