@@ -121,7 +121,7 @@ export default function MissionsPage() {
       <div className="mx-auto max-w-7xl">
         {/* 상단 배너 */}
         <section className="mb-8 overflow-hidden rounded-[32px] border border-white/10 bg-[#081427]/90">
-          <div className="relative h-[220px] md:h-[320px]">
+          <div className="relative h-[220px] md:h-[200px]">
             <Image
               src="/missions/mission-banner.avif"
               alt="팰월드 미션 배너"
@@ -138,9 +138,8 @@ export default function MissionsPage() {
                 <h1 className="mt-3 text-3xl font-extrabold tracking-tight text-white md:text-6xl">
                   미션 안내
                 </h1>
-                <p className="mt-4 max-w-2xl text-sm leading-6 text-white/70 md:text-base">
-                  보스 탑 클리어, 전설 포획, 건축 점수, 최초 희귀 포획까지.
-                  길드 단위 누적 점수로 최종 순위를 결정합니다.
+                <p className="mt-4 max-w-3xl text-sm leading-6 text-white/70 md:text-base">
+                  보스 탑 클리어, 전설 포획, 건축 점수, 최초 희귀 포획까지 길드 단위 누적 점수로 최종 순위를 결정합니다.
                 </p>
               </div>
             </div>
