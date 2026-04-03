@@ -16,7 +16,7 @@ export const siteInfo = {
   ],
 };
 
-export const defaultServerStatus: ServerStatus = "ON"; // 서버 변경 값 "ON" | "OFF";
+export const defaultServerStatus: ServerStatus = "OFF"; // 서버 변경 값 "ON" | "OFF";
 
 export const rankingData = [
   { team: "1팀", score: 85, members: "탄산, 완지, 한우, 갈매기" },
