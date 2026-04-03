@@ -5,9 +5,10 @@ export const siteInfo = {
   eventTitle: "밥그릇 탄산배 팰월드 이벤트",
   eventDescription:
     "공지사항, 팀 정보, 점수 현황을 한눈에 확인할 수 있는 이벤트 페이지입니다.",
-  notice:
-    ["이벤트 기간: 2026/03/27 ~ 2026/04/11\n팀별 점수 경쟁을 통해 최종 순위를 결정합니다.\n",
-    "※ PVP서버입니다. 자유로운 플레이는 가능하지만, 지나친 괴롭힘 및 불화는 제재 대상입니다.\n",],
+  notice: [
+    "이벤트 기간: 2026/03/27 ~ 2026/04/11\n팀별 점수 경쟁을 통해 최종 순위를 결정합니다.",
+    "※ PVP서버입니다. 자유로운 플레이는 가능하지만, 지나친 괴롭힘 및 불화는 제재 대상입니다.",
+  ],
   operatingHours: [
     "평일 20:00 ~ 02:00",
     "토요일 14:00 ~ 02:00",
@@ -15,7 +16,7 @@ export const siteInfo = {
   ],
 };
 
-export const defaultServerStatus: ServerStatus = "OFF"; //서버 변경 값 "ON" | "OFF";
+export const defaultServerStatus: ServerStatus = "OFF"; // 서버 변경 값 "ON" | "OFF";
 
 export const rankingData = [
   { team: "1팀", score: 85, members: "탄산, 완지, 한우, 갈매기" },
@@ -36,6 +37,6 @@ export const missionGroups = {
   bonus: [
     "팰 레이싱",
     "맨몸 전투",
-    "가장 높게 탑쌓기"
+    "가장 높게 탑쌓기",
   ],
 };

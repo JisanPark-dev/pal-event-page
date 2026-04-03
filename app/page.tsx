@@ -20,16 +20,29 @@ export default function HomePage() {
             <div className="flex h-11 w-11 items-center justify-center rounded-full bg-cyan-500/15 text-xl">
               📢
             </div>
-            <div>
+
+            <div className="flex-1">
               <p className="text-sm font-semibold text-cyan-300">공지사항</p>
-              <p className="mt-1 text-white/85">{siteInfo.notice}</p>
+
+              <div className="mt-2 space-y-2">
+                {siteInfo.notice.map((notice, index) => (
+                  <p
+                    key={index}
+                    className="whitespace-pre-line text-white/85"
+                  >
+                    {notice}
+                  </p>
+                ))}
+              </div>
             </div>
           </div>
         </section>
 
         <section className="rounded-3xl border border-white/10 bg-[#0a1628] p-5 md:p-8">
           <div className="mb-6">
-            <h2 className="text-2xl font-bold text-white md:text-3xl">길드 순위표</h2>
+            <h2 className="text-2xl font-bold text-white md:text-3xl">
+              길드 순위표
+            </h2>
             <p className="mt-2 text-sm text-white/55">
               Google Sheet의 Guilds 시트를 기준으로 자동 갱신됩니다.
             </p>
